@@ -1,0 +1,59 @@
+/* Reset some basic browser defaults */
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: linear-gradient(140deg, #89f7fe, #4a95fe, rgb(14, 105, 217));
+  color: #333;
+  min-height: 100vh;
+}
+
+/* Container for the whole app */
+.app {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.517);
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* List of episodes */
+ul.episode-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.episode-list li {
+  padding: 0.75rem;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #e7e7e7;
+  transition: background-color 0.2s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.517);
+}
+
+ul.episode-list li:hover {
+  background-color: #d6d6d6;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.736);
+}
+
+h2 {
+  text-align: center;
+}
+
+/* Selected episode details */
+.episode-details {
+  margin-top: 2rem;
+  padding: 1rem;
+  border-left: 4px solid #888;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+}
